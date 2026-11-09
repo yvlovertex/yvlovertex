@@ -1,0 +1,146 @@
+{
+  "profil": {
+    "nom": "Julyan KLEIN",
+    "initiales": "JK",
+    "role": "Développeur logiciel C++ / Qt - réseau et système",
+    "accroche": "Étudiant en BUT Informatique, je conçois des logiciels C++ / Qt et j'automatise l'infrastructure qui les fait tourner.",
+    "ville": "Arles"
+  },
+  "liens": {
+    "portfolio": "https://julyan.amc-i.fr/",
+    "portfolioCourt": "julyan.amc-i.fr",
+    "cv": "https://julyan.amc-i.fr/KLEIN_Julyan_CV_Stage_2027.pdf",
+    "linkedin": "https://www.linkedin.com/in/julyan-klein/",
+    "linkedinCourt": "@julyan-klein",
+    "github": "https://github.com/yvlovertex",
+    "githubCourt": "@yvlovertex",
+    "email": "kleinjulyan@proton.me",
+    "recrutement": "https://julyan.amc-i.fr/recrutez-moi"
+  },
+  "barreLiens": [
+    { "id": "portfolio", "label": "Portfolio", "icone": "globe", "url": "https://julyan.amc-i.fr/", "principal": true },
+    { "id": "cv", "label": "CV (PDF)", "icone": "fichier", "url": "https://julyan.amc-i.fr/KLEIN_Julyan_CV_Stage_2027.pdf" },
+    { "id": "linkedin", "label": "LinkedIn", "icone": "linkedin", "url": "https://www.linkedin.com/in/julyan-klein/" },
+    { "id": "email", "label": "kleinjulyan@proton.me", "icone": "mail", "url": "mailto:kleinjulyan@proton.me" },
+    { "id": "ville", "label": "Arles", "icone": "epingle", "url": "https://julyan.amc-i.fr/recrutez-moi" }
+  ],
+  "stage": {
+    "badge": "Recherche de stage",
+    "dates": "12 semaines, du 29 mars au 18 juin 2027",
+    "details": [
+      { "cle": "Zone", "valeur": "Arles, Béziers, Perpignan" },
+      { "cle": "Modalité", "valeur": "Hybride possible" },
+      { "cle": "Mobilité", "valeur": "Permis B et véhicule, distance indifférente" }
+    ],
+    "cta": "Détails de la recherche",
+    "url": "https://julyan.amc-i.fr/recrutez-moi"
+  },
+  "projets": [
+    {
+      "id": "treemap",
+      "titre": "Treemap",
+      "statut": "termine",
+      "couleur": "#f97316",
+      "icone": "treemap",
+      "categorie": "C++",
+      "resume": "Visualiseur d'espace disque Windows en C++ / Qt 6 : scan d'un disque et treemap navigable, façon WinDirStat.",
+      "meta": ["C++", "Projet perso", "Solo", "Juillet - septembre 2026"],
+      "stack": ["C++", "Qt 6", "CMake"],
+      "depot": "yvlovertex/treemap",
+      "url": "https://github.com/yvlovertex/treemap"
+    },
+    {
+      "id": "homelab-proxmox",
+      "titre": "Homelab Proxmox",
+      "statut": "production",
+      "couleur": "#F59E0B",
+      "icone": "serveur",
+      "categorie": "Infra",
+      "resume": "Infrastructure décrite en Ansible, supervisée par Prometheus / Grafana et déployée en continu par une CI/CD auto-hébergée.",
+      "meta": ["Infra", "Projet perso", "Solo", "Juillet - septembre 2026"],
+      "stack": ["Proxmox VE", "Ansible", "Docker", "GitHub Actions", "Prometheus", "Grafana"],
+      "depot": "overtexdev/homelab-proxmox-iac",
+      "url": "https://github.com/overtexdev/homelab-proxmox-iac"
+    },
+    {
+      "id": "application-gps",
+      "titre": "Planificateur d'itinéraires",
+      "statut": "termine",
+      "couleur": "#FF6B00",
+      "icone": "epingle",
+      "categorie": "C++",
+      "resume": "Calcul d'itinéraires optimaux entre villes françaises en C++ / Qt, avec Floyd-Warshall et une carte interactive.",
+      "meta": ["C++", "Projet scolaire", "Solo", "Mars 2026"],
+      "stack": ["C++", "Qt 6"],
+      "depot": "yvlovertex/gps",
+      "url": "https://github.com/yvlovertex/gps"
+    },
+    {
+      "id": "facelog",
+      "titre": "FaceLog",
+      "statut": "cours",
+      "couleur": "#f43f5e",
+      "icone": "visage",
+      "categorie": "C++",
+      "resume": "Appel automatisé par reconnaissance faciale : addon C++ / OpenCV dans Electron, 100 % local, données chiffrées (RGPD).",
+      "meta": ["C++", "Projet scolaire", "Équipe de 5", "Septembre 2026 - avril 2027"],
+      "stack": ["C++", "OpenCV", "Electron", "SQLite", "Jira"],
+      "depot": null,
+      "url": "https://julyan.amc-i.fr/projets/facelog"
+    },
+    {
+      "id": "klass",
+      "titre": "Klass",
+      "statut": "termine",
+      "couleur": "#3b82f6",
+      "icone": "personnes",
+      "categorie": "C++",
+      "resume": "Gestion d'étudiants et suivi des absences en C++ / Qt 6, persistance JSON et XML, interface FR / EN.",
+      "meta": ["C++", "Projet scolaire", "Duo (2 développeurs)", "Mai 2026"],
+      "stack": ["C++", "Qt 6", "JSON", "XML"],
+      "depot": "yvlovertex/Klass",
+      "url": "https://github.com/yvlovertex/Klass"
+    },
+    {
+      "id": "shapes-editor",
+      "titre": "ShapesEditor",
+      "statut": "termine",
+      "couleur": "#38bdf8",
+      "icone": "formes",
+      "categorie": "C++",
+      "resume": "Éditeur de formes 2D en C++20 : sauvegarde polymorphique par Factory Pattern, sélection multiple, glisser-déposer.",
+      "meta": ["C++", "Projet scolaire", "Solo", "Avril 2026"],
+      "stack": ["C++20"],
+      "depot": "yvlovertex/shapes-editor",
+      "url": "https://github.com/yvlovertex/shapes-editor"
+    }
+  ],
+  "stack": {
+    "intro": "Trois paliers, sans note : chaque technologie renvoie au projet ou au contexte qui la prouve.",
+    "paliers": [
+      {
+        "titre": "Maîtrisé",
+        "description": "Utilisé en autonomie, sur plusieurs projets ou au quotidien.",
+        "items": ["C++", "Qt 6", "Java", "HTML", "CSS", "Linux", "Bash", "Git", "GitHub", "Docker", "Proxmox VE", "Tailscale"]
+      },
+      {
+        "titre": "Utilisé en projet",
+        "description": "Mis en œuvre dans au moins un projet concret.",
+        "items": ["Python", "JavaScript", "React", "Astro", "Tailwind CSS", "PostgreSQL", "CMake", "Pandas", "NumPy", "FastAPI", "Ansible", "GitHub Actions", "Prometheus", "Grafana", "Nginx", "Portainer", "Raspberry Pi", "Jira"]
+      },
+      {
+        "titre": "Notions",
+        "description": "Vu en formation ou découvert sur un projet d'équipe, sans pratique approfondie.",
+        "items": ["Assembleur", "PHP", "Bootstrap", "MySQL", "SQLite", "Node.js", "GitLab", "Electron", "OpenCV"]
+      }
+    ],
+    "url": "https://julyan.amc-i.fr/"
+  },
+  "contact": [
+    { "option": "--email", "valeur": "kleinjulyan@proton.me" },
+    { "option": "--linkedin", "valeur": "@julyan-klein" },
+    { "option": "--github", "valeur": "@yvlovertex" },
+    { "option": "--cv", "valeur": "télécharger le CV (PDF)" },
+    { "option": "--stage", "valeur": "détails de la recherche de stage" }
+  ]
+}

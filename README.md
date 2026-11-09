@@ -1,136 +1,42 @@
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=100&color=FFFFFF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+overtex;Aspiring+Software+Engineer;2nd-year+CS+student;Homelab+%26+DevOps+tinkerer" alt="Typing SVG" />
-  </a>
-</div>
+<!-- Fichier généré par build/build.mjs à partir de data.json : modifier data.json puis lancer « npm run build ». -->
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=overtex667&label=Profile%20views&color=0e75b6&style=flat" alt="overtex667" /> </p>
+<a href="https://julyan.amc-i.fr/">
+  <img src="assets/hero.svg" width="100%" alt="Julyan KLEIN, Développeur logiciel C++ / Qt - réseau et système. Étudiant en BUT Informatique, je conçois des logiciels C++ / Qt et j'automatise l'infrastructure qui les fait tourner. Ouvrir le portfolio julyanOS sur julyan.amc-i.fr.">
+</a>
 
-## <ins>**👨‍💻 About Me**</ins>
+<p align="center">
+  <a href="https://julyan.amc-i.fr/"><img src="assets/lien-portfolio.svg" height="44" alt="Portfolio"></a>
+  <a href="https://julyan.amc-i.fr/KLEIN_Julyan_CV_Stage_2027.pdf"><img src="assets/lien-cv.svg" height="44" alt="CV (PDF)"></a>
+  <a href="https://www.linkedin.com/in/julyan-klein/"><img src="assets/lien-linkedin.svg" height="44" alt="LinkedIn"></a>
+  <a href="mailto:kleinjulyan@proton.me"><img src="assets/lien-email.svg" height="44" alt="kleinjulyan@proton.me"></a>
+  <a href="https://julyan.amc-i.fr/recrutez-moi"><img src="assets/lien-ville.svg" height="44" alt="Arles"></a>
+</p>
 
-I'm a **Computer Science student** currently pursuing my BUT degree. I am passionate about software engineering, system architecture, and building reliable, high-performance applications.
+<a href="https://julyan.amc-i.fr/recrutez-moi">
+  <img src="assets/stage.svg" width="100%" alt="Recherche de stage : 12 semaines, du 29 mars au 18 juin 2027. Zone : Arles, Béziers, Perpignan. Modalité : Hybride possible. Mobilité : Permis B et véhicule, distance indifférente. Détails de la recherche sur julyan.amc-i.fr/recrutez-moi.">
+</a>
 
-Beyond coursework, I love understanding how systems work under the hood. I designed and run my own **Proxmox homelab** as Infrastructure as Code — everything (containers, monitoring, CI/CD) is declared in Ansible, versioned on Git, and rebuildable from scratch with a single command.
+<br><br>
 
-- 🎓 **Current Status:** 2nd-Year CS Student (BUT Informatique)
-- ⚡ **Interests:** OOP, Systems Architecture, Full-Stack Web Dev & Self-Hosting
+<a href="https://julyan.amc-i.fr/">
+  <img src="assets/projets.svg" width="100%" alt="Fenêtre ~/projets/ : 6 projets phares (C++ 5, Infra 1).">
+</a>
 
----
+<p align="center">
+  <a href="https://github.com/yvlovertex/treemap"><img src="assets/card-treemap.svg" width="49%" alt="Treemap (terminé) : Visualiseur d'espace disque Windows en C++ / Qt 6 : scan d'un disque et treemap navigable, façon WinDirStat. Stack : C++, Qt 6, CMake. C++, Projet perso, Solo, Juillet - septembre 2026. Dépôt GitHub yvlovertex/treemap."></a>
+  <a href="https://github.com/overtexdev/homelab-proxmox-iac"><img src="assets/card-homelab-proxmox.svg" width="49%" alt="Homelab Proxmox (en production) : Infrastructure décrite en Ansible, supervisée par Prometheus / Grafana et déployée en continu par une CI/CD auto-hébergée. Stack : Proxmox VE, Ansible, Docker, GitHub Actions, Prometheus, Grafana. Infra, Projet perso, Solo, Juillet - septembre 2026. Dépôt GitHub overtexdev/homelab-proxmox-iac."></a>
+  <a href="https://github.com/yvlovertex/gps"><img src="assets/card-application-gps.svg" width="49%" alt="Planificateur d'itinéraires (terminé) : Calcul d'itinéraires optimaux entre villes françaises en C++ / Qt, avec Floyd-Warshall et une carte interactive. Stack : C++, Qt 6. C++, Projet scolaire, Solo, Mars 2026. Dépôt GitHub yvlovertex/gps."></a>
+  <a href="https://julyan.amc-i.fr/projets/facelog"><img src="assets/card-facelog.svg" width="49%" alt="FaceLog (en cours) : Appel automatisé par reconnaissance faciale : addon C++ / OpenCV dans Electron, 100 % local, données chiffrées (RGPD). Stack : C++, OpenCV, Electron, SQLite, Jira. C++, Projet scolaire, Équipe de 5, Septembre 2026 - avril 2027. Étude de cas sur julyan.amc-i.fr/projets/facelog (dépôt privé)."></a>
+  <a href="https://github.com/yvlovertex/Klass"><img src="assets/card-klass.svg" width="49%" alt="Klass (terminé) : Gestion d'étudiants et suivi des absences en C++ / Qt 6, persistance JSON et XML, interface FR / EN. Stack : C++, Qt 6, JSON, XML. C++, Projet scolaire, Duo (2 développeurs), Mai 2026. Dépôt GitHub yvlovertex/Klass."></a>
+  <a href="https://github.com/yvlovertex/shapes-editor"><img src="assets/card-shapes-editor.svg" width="49%" alt="ShapesEditor (terminé) : Éditeur de formes 2D en C++20 : sauvegarde polymorphique par Factory Pattern, sélection multiple, glisser-déposer. Stack : C++20. C++, Projet scolaire, Solo, Avril 2026. Dépôt GitHub yvlovertex/shapes-editor."></a>
+</p>
 
-## <ins>**🛠️ Technical Skills**</ins>
+<a href="https://julyan.amc-i.fr/">
+  <img src="assets/stack.svg" width="100%" alt="Terminal stack.sh. Trois paliers, sans note : chaque technologie renvoie au projet ou au contexte qui la prouve. Maîtrisé (12) : C++, Qt 6, Java, HTML, CSS, Linux, Bash, Git, GitHub, Docker, Proxmox VE, Tailscale. Utilisé en projet (18) : Python, JavaScript, React, Astro, Tailwind CSS, PostgreSQL, CMake, Pandas, NumPy, FastAPI, Ansible, GitHub Actions, Prometheus, Grafana, Nginx, Portainer, Raspberry Pi, Jira. Notions (9) : Assembleur, PHP, Bootstrap, MySQL, SQLite, Node.js, GitLab, Electron, OpenCV.">
+</a>
 
-<table border="0" cellspacing="0" cellpadding="6">
-  <tr>
-    <td align="center" valign="middle"><h4><ins>Languages & OOP</ins></h4></td>
-    <td valign="middle">
-      <img src="https://img.shields.io/badge/C++-0f172a?style=for-the-badge&logo=c%2B%2B&logoColor=00599C"/>
-      <img src="https://img.shields.io/badge/C-0f172a?style=for-the-badge&logo=c&logoColor=A8B9CC"/>
-      <img src="https://img.shields.io/badge/Java-0f172a?style=for-the-badge&logo=openjdk&logoColor=ED8B00"/>
-      <img src="https://img.shields.io/badge/Python-0f172a?style=for-the-badge&logo=python&logoColor=3776AB"/>
-      <img src="https://img.shields.io/badge/JavaScript-0f172a?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle"><h4><ins>Frontend & Design</ins></h4></td>
-    <td valign="middle">
-      <img src="https://img.shields.io/badge/React-0f172a?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-      <img src="https://img.shields.io/badge/Astro-0f172a?style=for-the-badge&logo=astro&logoColor=FF5D01"/>
-      <img src="https://img.shields.io/badge/Tailwind_CSS-0f172a?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4"/>
-      <img src="https://img.shields.io/badge/HTML5-0f172a?style=for-the-badge&logo=html5&logoColor=E34F26"/>
-      <img src="https://img.shields.io/badge/CSS3-0f172a?style=for-the-badge&logo=css3&logoColor=1572B6"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle"><h4><ins>Databases</ins></h4></td>
-    <td valign="middle">
-      <img src="https://img.shields.io/badge/PostgreSQL-0f172a?style=for-the-badge&logo=postgresql&logoColor=4169E1"/>
-      <img src="https://img.shields.io/badge/MySQL-0f172a?style=for-the-badge&logo=mysql&logoColor=4479A1"/>
-      <img src="https://img.shields.io/badge/SQLite-0f172a?style=for-the-badge&logo=sqlite&logoColor=003B57"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle"><h4><ins>Systems & Networking</ins></h4></td>
-    <td valign="middle">
-      <img src="https://img.shields.io/badge/Linux-0f172a?style=for-the-badge&logo=linux&logoColor=FCC624"/>
-      <img src="https://img.shields.io/badge/Bash-0f172a?style=for-the-badge&logo=gnubash&logoColor=4EAA25"/>
-      <img src="https://img.shields.io/badge/Git-0f172a?style=for-the-badge&logo=git&logoColor=F05032"/>
-      <img src="https://img.shields.io/badge/Raspberry_Pi-0f172a?style=for-the-badge&logo=raspberrypi&logoColor=A22846"/>
-      <img src="https://img.shields.io/badge/Tailscale-0f172a?style=for-the-badge&logo=tailscale&logoColor=FFFFFF"/>
-      <img src="https://img.shields.io/badge/Nginx-0f172a?style=for-the-badge&logo=nginx&logoColor=009639"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle"><h4><ins>DevOps & Infrastructure</ins></h4></td>
-    <td valign="middle">
-      <img src="https://img.shields.io/badge/Docker-0f172a?style=for-the-badge&logo=docker&logoColor=2CA5E0"/>
-      <img src="https://img.shields.io/badge/Proxmox_VE-0f172a?style=for-the-badge&logo=proxmox&logoColor=E57000"/>
-      <img src="https://img.shields.io/badge/Ansible-0f172a?style=for-the-badge&logo=ansible&logoColor=EE0000"/>
-      <img src="https://img.shields.io/badge/GitHub_Actions-0f172a?style=for-the-badge&logo=githubactions&logoColor=2088FF"/>
-      <img src="https://img.shields.io/badge/Prometheus-0f172a?style=for-the-badge&logo=prometheus&logoColor=E6522C"/>
-      <img src="https://img.shields.io/badge/Grafana-0f172a?style=for-the-badge&logo=grafana&logoColor=F46800"/>
-    </td>
-  </tr>
-</table>
+<br><br>
 
----
-
-## <ins>**🚀 Featured Projects**</ins>
-
-<table border="0" cellspacing="0" cellpadding="10">
-  <tr>
-    <th align="center"><ins>Project</ins></th>
-    <th align="left"><ins>Description</ins></th>
-    <th align="center"><ins>Tech Stack</ins></th>
-    <th align="center"><ins>Links</ins></th>
-  </tr>
-  <tr>
-    <td align="center" valign="middle">
-      <strong>Homelab Proxmox</strong>
-    </td>
-    <td valign="middle">Self-hosted DevOps platform: infrastructure fully described as code with Ansible, Prometheus/Grafana monitoring across two physical machines, and an end-to-end CI/CD pipeline through a private Docker registry and a self-hosted GitHub Actions runner.</td>
-    <td align="center" valign="middle">
-      <code>Proxmox VE</code> <code>Ansible</code> <code>Docker</code> <code>Prometheus/Grafana</code> <code>CI/CD</code>
-    </td>
-    <td align="center" valign="middle">
-      <a href="https://github.com/overtexdev/homelab-proxmox-iac"><img src="https://img.shields.io/badge/Repo-475569?style=for-the-badge&logo=github&logoColor=white" alt="Repo"/></a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle">
-      <strong>HomeLab Server</strong>
-    </td>
-    <td valign="middle">Personal Raspberry Pi home server architecture. Manages containerized services with Docker and self-hosts Umami Analytics.</td>
-    <td align="center" valign="middle">
-      <code>Linux</code> <code>Docker</code> <code>Raspberry Pi</code>
-    </td>
-    <td align="center" valign="middle">
-      <a href="https://github.com/yvlovertex/piserver"><img src="https://img.shields.io/badge/Repo-475569?style=for-the-badge&logo=github&logoColor=white" alt="Repo"/></a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle">
-      <strong>US Electoral Analysis</strong>
-    </td>
-    <td valign="middle">Statistical analysis and data visualization highlighting demographic bias and representation disparities in the US Electoral College.</td>
-    <td align="center" valign="middle">
-      <code>Python</code> <code>Pandas</code> <code>Matplotlib</code>
-    </td>
-    <td align="center" valign="middle">
-      <a href="https://github.com/yvlovertex/us-electoral-college-bias"><img src="https://img.shields.io/badge/Repo-475569?style=for-the-badge&logo=github&logoColor=white" alt="Repo"/></a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle">
-      <strong>GPS Application</strong>
-    </td>
-    <td valign="middle">C++ desktop system software with a focus on Object-Oriented Programming (OOP) and efficient pathfinding/management logic.</td>
-    <td align="center" valign="middle">
-      <code>C++</code> <code>OOP</code> <code>Algorithms</code>
-    </td>
-    <td align="center" valign="middle">
-      <a href="https://github.com/yvlovertex/gps"><img src="https://img.shields.io/badge/Repo-475569?style=for-the-badge&logo=github&logoColor=white" alt="Repo"/></a>
-    </td>
-  </tr>
-</table>
-
----
+<a href="mailto:kleinjulyan@proton.me">
+  <img src="assets/footer.svg" width="100%" alt="contact.sh : email kleinjulyan@proton.me, linkedin @julyan-klein, github @yvlovertex, cv télécharger le CV (PDF), stage détails de la recherche de stage. Stage, alternance ou projet : écrivez-moi à kleinjulyan@proton.me.">
+</a>
