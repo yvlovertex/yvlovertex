@@ -1,0 +1,41 @@
+name: Build README
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data.json
+      - build/**
+      - package.json
+      - package-lock.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-readme
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node build/build.mjs
+      - name: Commit des visuels regénérés
+        run: |
+          git add assets README.md
+          if git diff --cached --quiet; then
+            echo "Rien à mettre à jour."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: regénère le README depuis data.json"
+          git push
